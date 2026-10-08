@@ -1,0 +1,113 @@
+[meta]
+name        = "GitHub Light"
+author      = "Based on GitHub's VS Code theme (Primer)"
+mode        = "light"
+description = "GitHub Light, ported from the official GitHub VS Code theme (v6.3.5)."
+
+# Every colour is taken verbatim from GitHub's official VS Code theme,
+# "GitHub Light" (github-vscode-theme 6.3.5, themes/light.json).
+# The VS Code key each value comes from is noted alongside it.
+
+[terminal]
+foreground           = "#586069"   # terminal.foreground
+background           = "#FFFFFF"   # editor.background
+cursor               = "#005CC5"   # terminalCursor.foreground
+cursor-text          = "#FFFFFF"
+selection-foreground = "#586069"   # terminal.foreground
+selection-background = "#0366D625"   # editor.selectionBackground
+# palette: terminal.ansiBlack … ansiWhite, then ansiBrightBlack … ansiBrightWhite
+palette = [
+    "#24292E", "#D73A49", "#28A745", "#DBAB09",
+    "#0366D6", "#5A32A3", "#1B7C83", "#6A737D",
+    "#959DA5", "#CB2431", "#22863A", "#B08800",
+    "#005CC5", "#5A32A3", "#3192AA", "#D1D5DA",
+]
+
+[cursor.bar]
+color = "#005CC5"
+
+[cursor.underline]
+color = "#005CC5"
+
+[token]
+foreground = "#444D56"   # foreground
+secondary  = "#6A737D"   # descriptionForeground
+tertiary   = "#959DA5"   # terminal.ansiBrightBlack
+accent     = "#0366D6"   # textLink.foreground
+success    = "#28A745"   # terminal.ansiGreen
+warning    = "#DBAB09"   # terminal.ansiYellow
+danger     = "#CB2431"   # errorForeground
+hover-bg   = "#EBF0F4" # list.hoverBackground
+active-bg  = "#E2E5E9" # list.activeSelectionBackground
+radius     = 6
+
+[panel]
+background = "#FFFFFF"   # editor.background
+surface    = "#F6F8FA"   # editorWidget.background
+border     = "#E1E4E8"   # panel.border
+
+[window]
+background = "#FFFFFF"
+material   = "none"
+
+[titlebar]
+background  = "#FFFFFF"  # titleBar.activeBackground
+foreground  = "#2F363D"  # titleBar.activeForeground
+font-weight = 500
+
+[titlebar.unfocused]
+background = "#F6F8FA"   # titleBar.inactiveBackground
+foreground = "#6A737D"   # titleBar.inactiveForeground
+
+# Session list = VS Code's Explorer list + Activity Bar indicator.
+[sidebar]
+background   = "#F6F8FA"           # sideBar.background
+border-right = "1px solid #E1E4E8" # sideBar.border
+material     = "none"
+
+[tab]
+radius      = 6
+foreground  = "#959DA5"            # activityBar.inactiveForeground
+font-weight = 400
+
+[tab.hover]
+background = "#EBF0F4"           # list.hoverBackground
+foreground = "#2F363D"             # list.hoverForeground
+
+[tab.active]
+background      = "#E2E5E9"      # list.activeSelectionBackground
+foreground      = "#2F363D"        # list.activeSelectionForeground
+font-weight     = 600
+indicator       = "bar"
+indicator-color = "#F9826C"        # activityBar.activeBorder
+
+[tab.active.unfocused]
+background      = "#E8EAED"      # list.inactiveSelectionBackground
+foreground      = "#2F363D"        # list.inactiveSelectionForeground
+indicator-color = "#E1E4E8"        # tab.unfocusedActiveBorderTop
+
+# Top/bottom tab strip = VS Code's editor tabs.
+[tab-bar]
+background    = "#F6F8FA"           # editorGroupHeader.tabsBackground
+border-bottom = "1px solid #E1E4E8" # editorGroupHeader.tabsBorder
+
+[tab-bar.tab]
+background = "#F6F8FA"             # tab.inactiveBackground
+foreground = "#6A737D"             # tab.inactiveForeground
+border     = "1px solid #E1E4E8"   # tab.border
+
+[tab-bar.tab.hover]
+background = "#FFFFFF"             # tab.hoverBackground
+
+[tab-bar.tab.active]
+background      = "#FFFFFF"        # tab.activeBackground
+foreground      = "#2F363D"        # tab.activeForeground
+indicator-color = "#F9826C"        # tab.activeBorderTop
+
+[container]
+background = "#FFFFFF"             # editor.background
+radius     = 0
+
+[divider]
+color = "#E1E4E8"                  # editorGroup.border
+width = 1

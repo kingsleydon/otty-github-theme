@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="420" viewBox="0 0 860 420">
+<title>GitHub Light for Otty</title>
+<defs><clipPath id="w"><rect width="860" height="420" rx="12"/></clipPath></defs>
+<g clip-path="url(#w)">
+<rect width="860" height="420" fill="#FFFFFF"/>
+<rect width="210" height="420" fill="#F6F8FA"/>
+<rect x="210" width="650" height="40" fill="#FFFFFF"/>
+<rect x="210" y="39" width="650" height="1" fill="#E1E4E8"/>
+<rect x="209" width="1" height="420" fill="#E1E4E8"/>
+<circle cx="20" cy="20" r="6" fill="#FF5F57"/>
+<circle cx="40" cy="20" r="6" fill="#FEBC2E"/>
+<circle cx="60" cy="20" r="6" fill="#28C840"/>
+<text x="535.0" y="25" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="500" fill="#2F363D">~/otty-github-theme</text>
+<rect x="10" y="56" width="190" height="28" rx="6" fill="#E2E5E9"/>
+<rect x="10" y="62" width="3" height="16" rx="1.5" fill="#F9826C"/>
+<text x="24" y="74.5" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#2F363D">otty-github-theme</text>
+<text x="24" y="108.5" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#959DA5">primer/primitives</text>
+<text x="24" y="142.5" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#959DA5">~/.config/otty</text>
+<text x="234" y="74" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" xml:space="preserve"><tspan fill="#28A745">❯ </tspan><tspan fill="#586069">git </tspan><tspan fill="#586069">status</tspan></text>
+<text x="234" y="96" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" xml:space="preserve"><tspan fill="#586069">On branch </tspan><tspan fill="#1B7C83">main</tspan></text>
+<text x="234" y="118" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" xml:space="preserve"><tspan fill="#586069">Changes to be committed:</tspan></text>
+<text x="234" y="140" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" xml:space="preserve"><tspan fill="#28A745">        new file:   </tspan><tspan fill="#28A745">themes/github-dark-default.ottytheme</tspan></text>
+<text x="234" y="162" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" xml:space="preserve"><tspan fill="#D73A49">        modified:   </tspan><tspan fill="#D73A49">README.md</tspan></text>
+<text x="234" y="206" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" xml:space="preserve"><tspan fill="#28A745">❯ </tspan><tspan fill="#586069">otty theme import </tspan><tspan fill="#0366D6">github-dark.ottytheme</tspan></text>
+<text x="234" y="228" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" xml:space="preserve"><tspan fill="#586069">Imported </tspan><tspan fill="#DBAB09">&quot;GitHub Light&quot;</tspan><tspan fill="#959DA5"> (otty, light)</tspan></text>
+<rect x="251" y="257" width="68" height="20" fill="#0366D625"/>
+<text x="234" y="272" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" xml:space="preserve"><tspan fill="#28A745">❯ </tspan><tspan fill="#586069">selected</tspan></text>
+<rect x="326" y="258" width="9" height="18" fill="#005CC5"/>
+<rect x="234" y="332" width="30" height="30" rx="5" fill="#24292E" stroke="#E1E4E8" stroke-width="1"/>
+<rect x="270" y="332" width="30" height="30" rx="5" fill="#D73A49" stroke="#E1E4E8" stroke-width="1"/>
+<rect x="306" y="332" width="30" height="30" rx="5" fill="#28A745" stroke="#E1E4E8" stroke-width="1"/>
+<rect x="342" y="332" width="30" height="30" rx="5" fill="#DBAB09" stroke="#E1E4E8" stroke-width="1"/>
+<rect x="378" y="332" width="30" height="30" rx="5" fill="#0366D6" stroke="#E1E4E8" stroke-width="1"/>
+<rect x="414" y="332" width="30" height="30" rx="5" fill="#5A32A3" stroke="#E1E4E8" stroke-width="1"/>
+<rect x="450" y="332" width="30" height="30" rx="5" fill="#1B7C83" stroke="#E1E4E8" stroke-width="1"/>
+<rect x="486" y="332" width="30" height="30" rx="5" fill="#6A737D" stroke="#E1E4E8" stroke-width="1"/>
+<rect x="234" y="368" width="30" height="30" rx="5" fill="#959DA5" stroke="#E1E4E8" stroke-width="1"/>
+<rect x="270" y="368" width="30" height="30" rx="5" fill="#CB2431" stroke="#E1E4E8" stroke-width="1"/>
+<rect x="306" y="368" width="30" height="30" rx="5" fill="#22863A" stroke="#E1E4E8" stroke-width="1"/>
+<rect x="342" y="368" width="30" height="30" rx="5" fill="#B08800" stroke="#E1E4E8" stroke-width="1"/>
+<rect x="378" y="368" width="30" height="30" rx="5" fill="#005CC5" stroke="#E1E4E8" stroke-width="1"/>
+<rect x="414" y="368" width="30" height="30" rx="5" fill="#5A32A3" stroke="#E1E4E8" stroke-width="1"/>
+<rect x="450" y="368" width="30" height="30" rx="5" fill="#3192AA" stroke="#E1E4E8" stroke-width="1"/>
+<rect x="486" y="368" width="30" height="30" rx="5" fill="#D1D5DA" stroke="#E1E4E8" stroke-width="1"/>
+</g>
+<rect x="0.5" y="0.5" width="859" height="419" rx="11.5" fill="none" stroke="#E1E4E8"/>
+</svg>

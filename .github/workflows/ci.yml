@@ -1,0 +1,37 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Themes are valid TOML with 16 palette colors
+        run: |
+          python - <<'EOF'
+          import glob, sys, tomllib
+          bad = 0
+          for path in sorted(glob.glob("themes/*.ottytheme")):
+              with open(path, "rb") as f:
+                  theme = tomllib.load(f)
+              n = len(theme["terminal"]["palette"])
+              if n != 16:
+                  print(f"{path}: palette has {n} colors"); bad += 1
+              else:
+                  print(f"ok  {path}")
+          sys.exit(bad)
+          EOF
+
+      - name: Previews are up to date
+        run: |
+          python scripts/preview.py
+          git diff --exit-code -- assets/previews
