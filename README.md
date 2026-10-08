@@ -2,8 +2,7 @@
 
 # GitHub themes for Otty
 
-All nine variants of GitHub's official [VS Code theme](https://github.com/primer/github-vscode-theme), ported to the [Otty](https://otty.sh) terminal.<br>
-Full window styling, not just terminal colors: sidebar, tabs, title bar, selection and dividers.
+GitHub's official [VS Code themes](https://github.com/primer/github-vscode-theme), all nine of them, for the [Otty](https://otty.sh) terminal.
 
 [![CI](https://github.com/kingsleydon/otty-github-theme/actions/workflows/ci.yml/badge.svg)](https://github.com/kingsleydon/otty-github-theme/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
@@ -14,85 +13,73 @@ Full window styling, not just terminal colors: sidebar, tabs, title bar, selecti
 
 ## Install
 
-**All nine themes:**
+**One theme:** click **Download** under a theme below, open the file, and choose **Import & Apply**.
+
+**All themes:** paste this into Otty:
 
 ```sh
 curl -fsSL https://raw.githubusercontent.com/kingsleydon/otty-github-theme/main/install.sh | sh
 ```
 
-**One theme** (add `--activate` to switch to it right away):
-
-```sh
-otty theme import https://raw.githubusercontent.com/kingsleydon/otty-github-theme/main/themes/github-dark-default.ottytheme
-```
-
-**Manually:** download an `.ottytheme` file from [`themes/`](themes) and double-click it, or copy it into `~/.config/otty/themes/`.
-
-Then pick a theme in **Settings → Appearance → Themes**, or set one per appearance in `~/.config/otty/config.toml`:
-
-```toml
-theme      = "GitHub Light Default"  # light mode
-theme-dark = "GitHub Dark Default"   # dark mode
-```
-
-To update, run the install command again.
-
-> [!TIP]
-> If a theme seems to have no effect, look for top-level `foreground`, `background` or `palette-N` lines in `config.toml`. They override every theme.
+Then pick one in **Settings → Appearance → Themes**. Run it again any time to update.
 
 ## Themes
 
 <table>
 <tr>
-<td align="center"><img src="assets/previews/github-dark-default.svg" alt="GitHub Dark Default"><br><b>GitHub Dark Default</b></td>
-<td align="center"><img src="assets/previews/github-light-default.svg" alt="GitHub Light Default"><br><b>GitHub Light Default</b></td>
+<td align="center" width="50%"><a href="https://github.com/kingsleydon/otty-github-theme/releases/latest/download/github-dark-default.ottytheme"><img src="assets/previews/github-dark-default.svg" alt="GitHub Dark Default"></a><br><b>GitHub Dark Default</b><br><a href="https://github.com/kingsleydon/otty-github-theme/releases/latest/download/github-dark-default.ottytheme">Download</a></td>
+<td align="center" width="50%"><a href="https://github.com/kingsleydon/otty-github-theme/releases/latest/download/github-light-default.ottytheme"><img src="assets/previews/github-light-default.svg" alt="GitHub Light Default"></a><br><b>GitHub Light Default</b><br><a href="https://github.com/kingsleydon/otty-github-theme/releases/latest/download/github-light-default.ottytheme">Download</a></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/previews/github-dark-dimmed.svg" alt="GitHub Dark Dimmed"><br><b>GitHub Dark Dimmed</b></td>
-<td align="center"><img src="assets/previews/github-light-high-contrast.svg" alt="GitHub Light High Contrast"><br><b>GitHub Light High Contrast</b></td>
+<td align="center" width="50%"><a href="https://github.com/kingsleydon/otty-github-theme/releases/latest/download/github-dark-dimmed.ottytheme"><img src="assets/previews/github-dark-dimmed.svg" alt="GitHub Dark Dimmed"></a><br><b>GitHub Dark Dimmed</b><br><a href="https://github.com/kingsleydon/otty-github-theme/releases/latest/download/github-dark-dimmed.ottytheme">Download</a></td>
+<td align="center" width="50%"><a href="https://github.com/kingsleydon/otty-github-theme/releases/latest/download/github-light-high-contrast.ottytheme"><img src="assets/previews/github-light-high-contrast.svg" alt="GitHub Light High Contrast"></a><br><b>GitHub Light High Contrast</b><br><a href="https://github.com/kingsleydon/otty-github-theme/releases/latest/download/github-light-high-contrast.ottytheme">Download</a></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/previews/github-dark-high-contrast.svg" alt="GitHub Dark High Contrast"><br><b>GitHub Dark High Contrast</b></td>
-<td align="center"><img src="assets/previews/github-light-colorblind.svg" alt="GitHub Light Colorblind"><br><b>GitHub Light Colorblind</b></td>
+<td align="center" width="50%"><a href="https://github.com/kingsleydon/otty-github-theme/releases/latest/download/github-dark-high-contrast.ottytheme"><img src="assets/previews/github-dark-high-contrast.svg" alt="GitHub Dark High Contrast"></a><br><b>GitHub Dark High Contrast</b><br><a href="https://github.com/kingsleydon/otty-github-theme/releases/latest/download/github-dark-high-contrast.ottytheme">Download</a></td>
+<td align="center" width="50%"><a href="https://github.com/kingsleydon/otty-github-theme/releases/latest/download/github-light-colorblind.ottytheme"><img src="assets/previews/github-light-colorblind.svg" alt="GitHub Light Colorblind"></a><br><b>GitHub Light Colorblind</b><br><a href="https://github.com/kingsleydon/otty-github-theme/releases/latest/download/github-light-colorblind.ottytheme">Download</a></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/previews/github-dark-colorblind.svg" alt="GitHub Dark Colorblind"><br><b>GitHub Dark Colorblind</b></td>
-<td align="center"><img src="assets/previews/github-light.svg" alt="GitHub Light (classic)"><br><b>GitHub Light</b> (classic)</td>
+<td align="center" width="50%"><a href="https://github.com/kingsleydon/otty-github-theme/releases/latest/download/github-dark-colorblind.ottytheme"><img src="assets/previews/github-dark-colorblind.svg" alt="GitHub Dark Colorblind"></a><br><b>GitHub Dark Colorblind</b><br><a href="https://github.com/kingsleydon/otty-github-theme/releases/latest/download/github-dark-colorblind.ottytheme">Download</a></td>
+<td align="center" width="50%"><a href="https://github.com/kingsleydon/otty-github-theme/releases/latest/download/github-light.ottytheme"><img src="assets/previews/github-light.svg" alt="GitHub Light (classic)"></a><br><b>GitHub Light (classic)</b><br><a href="https://github.com/kingsleydon/otty-github-theme/releases/latest/download/github-light.ottytheme">Download</a></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/previews/github-dark.svg" alt="GitHub Dark (classic)"><br><b>GitHub Dark</b> (classic)</td>
+<td align="center" width="50%"><a href="https://github.com/kingsleydon/otty-github-theme/releases/latest/download/github-dark.ottytheme"><img src="assets/previews/github-dark.svg" alt="GitHub Dark (classic)"></a><br><b>GitHub Dark (classic)</b><br><a href="https://github.com/kingsleydon/otty-github-theme/releases/latest/download/github-dark.ottytheme">Download</a></td>
 <td></td>
 </tr>
 </table>
 
-Previews are drawn from each theme file's own colors by [`scripts/preview.py`](scripts/preview.py).
+<details>
+<summary><b>Use different themes for light and dark mode</b></summary>
 
-## How the colors map
+In `~/.config/otty/config.toml`:
 
-Every color is copied from the VS Code theme. Each line in a theme file notes the VS Code key it came from.
-
-| Otty | VS Code |
-|---|---|
-| Terminal text, background, 16 ANSI colors | `terminal.*`, `editor.background` |
-| Cursor | `terminalCursor.foreground`, falling back to `editorCursor.foreground` |
-| Selection | `editor.selectionBackground` / `editor.selectionForeground`, or VS Code's default when unset |
-| Title bar | `titleBar.*` |
-| Session sidebar | Explorer list (`sideBar.*`, `list.*`), with the Activity Bar's active indicator |
-| Top tab strip | Editor tabs (`editorGroupHeader.*`, `tab.*`) |
-
-The themes don't set a font, so your own font choice applies.
-
-## Development
-
-```sh
-sh scripts/update.sh          # download the latest VS Code theme and regenerate themes/
-python3 scripts/preview.py    # redraw assets/previews/
+```toml
+theme      = "GitHub Light Default"
+theme-dark = "GitHub Dark Default"
 ```
 
-A [weekly workflow](.github/workflows/update.yml) does the same and opens a pull request when GitHub ships new colors.
+</details>
+
+<details>
+<summary><b>Theme not changing?</b></summary>
+
+Remove any top-level `foreground`, `background` or `palette-N` lines from `~/.config/otty/config.toml`. They override every theme.
+
+</details>
+
+<details>
+<summary><b>How the colors are made</b></summary>
+
+Every color is copied from GitHub's VS Code theme, and each line in a theme file names the VS Code key it came from. The sidebar follows VS Code's Explorer, the top tabs follow its editor tabs. Themes don't set a font, so yours is kept.
+
+A [weekly workflow](.github/workflows/update.yml) pulls the latest VS Code theme and opens a pull request when GitHub changes a color. To regenerate by hand:
+
+```sh
+sh scripts/update.sh && python3 scripts/preview.py
+```
+
+</details>
 
 ## License
 
-[MIT](LICENSE). Colors from [primer/github-vscode-theme](https://github.com/primer/github-vscode-theme) (MIT, © Primer).
-
-Not affiliated with or endorsed by GitHub or Otty.
+[MIT](LICENSE). Colors from [primer/github-vscode-theme](https://github.com/primer/github-vscode-theme) (MIT, © Primer). Not affiliated with GitHub or Otty.

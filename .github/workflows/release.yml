@@ -1,0 +1,28 @@
+name: Release
+
+# Publish the theme files as release assets whenever they change, so
+# README links to releases/latest/download/<file> always download the
+# newest version.
+on:
+  push:
+    branches: [main]
+    paths: [themes/**]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Publish release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          tag="v$(date -u +%Y.%m.%d)-${{ github.run_number }}"
+          gh release create "$tag" themes/*.ottytheme \
+            --title "$tag" \
+            --notes "Download a theme and double-click it, then choose **Import & Apply**."
